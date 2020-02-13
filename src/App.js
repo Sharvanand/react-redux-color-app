@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h3>Color App</h3>
         <Home />
       </div>
     );

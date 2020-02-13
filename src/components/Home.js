@@ -5,8 +5,30 @@ import * as actionCreators from "../actions/Index";
 class Home extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: `${this.props.color}` }}>
-        <button onClick={() => this.props.loadColor()}>Change Color</button>
+      <div>
+        <div className="container">
+          <div className="col s12 m6">
+            <div
+              className="card "
+              style={{ backgroundColor: `${this.props.color}` }}
+            >
+              <div className="card-content">
+                <span className="card-title black-text">Color App</span>
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          className="waves-effect waves-light btn-small blue"
+          onClick={() => this.props.loadColor()}
+        >
+          Change Color
+        </a>
       </div>
     );
   }
