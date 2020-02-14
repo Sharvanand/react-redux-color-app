@@ -1,0 +1,19 @@
+.box {
+  min-height: 50rem;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.button-box {
+  width: 20rem;
+  height: 3rem;
+  background-color: saddlebrown;
+  border-radius: 0.5rem;
+  box-shadow: 2px 3px 8px black;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.5rem;
+}
